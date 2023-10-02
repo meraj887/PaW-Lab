@@ -1,4 +1,4 @@
-<!-- Header -->
+<!-- Top image -->
 <div class="container-fluid d-none d-lg-block px-0">
     <img src="Materials/Home/Header_Photo.jpg" class="figure-img img-fluid my-0" alt="" />
 
@@ -7,6 +7,7 @@
     </div>
 
 </div>
+<!-- Top image -->
 
 
 <!-- Navbar -->
@@ -32,7 +33,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="research.php">RESEARCH</a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link" href="publications.php">PUBLICATIONS</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="teaching.php">TEACHING</a>
                 </li>
@@ -49,4 +52,3 @@
     </div>
 </nav>
 <!-- Navbar -->
-<!-- Header -->

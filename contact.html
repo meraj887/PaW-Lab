@@ -1,183 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Particles and Waves Lab</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script defer src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script defer src="scroll_to_top.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
+
     <!-- Header -->
+    <!-- Top image -->
     <div class="container-fluid d-none d-lg-block px-0">
-      <img
-        src="Materials/Home/Header_Photo.jpg"
-        class="figure-img img-fluid my-0"
-        alt=""
-      />
+        <img src="Materials/Home/Header_Photo.jpg" class="figure-img img-fluid my-0" alt="" />
 
-      <div class="lab_name">
-        <h1>Particles and Waves Lab</h1>
-      </div>
+        <div class="lab_name">
+            <h1>Particles and Waves Lab</h1>
+        </div>
+
     </div>
+    <!-- Top image -->
+
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="https://www.iitm.ac.in/"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                PEOPLE
-              </a>
-              <ul
-                class="nav-item dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a class="nav-item dropdown-item" href="group.html">Group</a>
-                </li>
-                <li>
-                  <a class="nav-item dropdown-item" href="alumni.html">Alumni</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="research.html">RESEARCH</a>
-            </li>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://www.iitm.ac.in/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PEOPLE
+                        </a>
+                        <ul class="nav-item dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="nav-item dropdown-item" href="group.html">Group</a></li>
+                            <li><a class="nav-item dropdown-item" href="alumni.html">Alumni</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research.html">RESEARCH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="publications.html">PUBLICATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teaching.html">TEACHING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="teaching.html">TEACHING</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">GALLERY</a>
-            </li>
-          </ul>
+
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
     <!-- Navbar -->
     <!-- Header -->
 
-    <!-- Header -->
-    <!-- <?php include 'header.php'; ?> -->
-    <!-- Header -->
-
     <div class="container my-5 bg-white">
-      <div class="row p-3">
-        <h1>Contact</h1>
-      </div>
 
-      <div class="row p-3">
-        <div class="col-lg-6 bg-white px-3">
-          <p class="mb-0">
-            <b>Anubhab Roy</b><br />
-            Room 209a, Fluid Mechanics Building<br />Phone: +91 44 2257 4080
-          </p>
-
-          <p class="mb-0 mt-1">Email:</p>
-
-          <ol class="mt-0">
-            <li>anubhab[at]iitm[.]ac[.]in</li>
-            <li>anubhab[at]smail[.]iitm[.]ac[.]in</li>
-          </ol>
-
-          <p>
-            <b>Lab 1</b> <br />Room 118, Fluid Mechanics Building<br />Phone:
-            +91 44 2257 5088 <br />
-          </p>
-
-          <p>
-            <b>Lab 2</b> <br />Room 102, Fluid Mechanics Building<br />Phone:
-            +91 44 2257 5050 <br />
-          </p>
+        <div class="row p-3">
+            <h1>Contact</h1>
         </div>
-        <div class="col-lg-6 bg-white px-3 text-center">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6977014280506!2d80.22411762864073!3d12.991176761554456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52677e466f5bef%3A0x2f9d5790b4581f37!2sFluid%20Mechanics%2C%20Alumni%20Ave%2C%20Indian%20Institute%20Of%20Technology%2C%20Chennai%2C%20Tamil%20Nadu%20600036!5e0!3m2!1sen!2sin!4v1674023255748!5m2!1sen!2sin"
-            width="400"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+
+        <div class="row p-3">
+
+            <div class="col-lg-6 bg-white px-3">
+
+
+
+                <p class="mb-0"><b>Anubhab Roy</b><br> Room 209a, Fluid Mechanics Building<br>Phone: +91 44 2257 4080 </p>
+
+                <p class="mb-0 mt-1">Email:</p>
+
+                <ol class="mt-0">
+                    <li>anubhab[at]iitm[.]ac[.]in</li>
+                    <li>anubhab[at]smail[.]iitm[.]ac[.]in</li>
+                </ol>
+
+                <p><b>Lab 1</b> <br>Room 118, Fluid Mechanics Building<br>Phone: +91 44 2257 5088 <br></p>
+
+                <p><b>Lab 2</b> <br>Room 102, Fluid Mechanics Building<br>Phone: +91 44 2257 5050 <br></p>
+
+
+            </div>
+            <div class="col-lg-6 bg-white px-3 text-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6977014280506!2d80.22411762864073!3d12.991176761554456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52677e466f5bef%3A0x2f9d5790b4581f37!2sFluid%20Mechanics%2C%20Alumni%20Ave%2C%20Indian%20Institute%20Of%20Technology%2C%20Chennai%2C%20Tamil%20Nadu%20600036!5e0!3m2!1sen!2sin!4v1674023255748!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+
+
+
         </div>
-      </div>
     </div>
 
     <!-- Footer -->
-    <!-- <?php include 'footer.php'; ?> -->
-    <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-center align-items-center text-white-50 bg-dark fixed-bottom">
 
-    <!-- Footer -->
-    <footer
-      class="d-flex flex-wrap justify-content-center align-items-center text-white-50 bg-dark fixed-bottom"
-    >
-      <!-- <p class="col-md-4 mb-0 text-muted px-5"><a href="https://apm.iitm.ac.in/" target="_blank">AMBE</a></p> -->
+        <!-- <p class="col-md-4 mb-0 text-muted px-5"><a href="https://apm.iitm.ac.in/" target="_blank">AMBE</a></p> -->
 
-      <p class="mb-0">
-        Designed by
-        <a
-          href="https://www.linkedin.com/in/meraj87"
-          target="_blank"
-          class="meraj"
-          >Meraj</a
-        >
-      </p>
+        <p class="mb-0"> Designed by <a href="https://www.linkedin.com/in/meraj87" target="_blank" class="meraj">Meraj</a></p>
 
-      <!-- <p class="nav col-md-4 justify-content-end px-5"> <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a> </p> -->
+        <!-- <p class="nav col-md-4 justify-content-end px-5"> <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a> </p> -->
+
     </footer>
     <!-- Footer -->
-
     <!-- for all three, replace "justify-content-center" with "justify-content-between" -->
 
     <script src="js/bootstrap.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
 </html>
