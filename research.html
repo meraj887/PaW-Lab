@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Particles and Waves Lab</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script defer src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script defer src="scroll_to_top.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="container-fluid d-none d-lg-block px-0">
+      <img
+        src="Materials/Home/Header_Photo.jpg"
+        class="figure-img img-fluid my-0"
+        alt=""
+      />
+
+      <div class="lab_name">
+        <h1>Particles and Waves Lab</h1>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="https://www.iitm.ac.in/"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PEOPLE
+              </a>
+              <ul
+                class="nav-item dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="nav-item dropdown-item" href="group.html">Group</a>
+                </li>
+                <li>
+                  <a class="nav-item dropdown-item" href="alumni.html">Alumni</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">RESEARCH</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="teaching.html">TEACHING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Header -->
+
+    <!-- Header -->
+    <!-- <?php include 'header.php'; ?> -->
+    <!-- Header -->
+
+    <div class="container my-5 bg-white">
+      <div class="row p-3">
+        <h1>Research</h1>
+
+        <p>
+          We are curious about questions in fluid dynamics and transport
+          processes, with a preference towards those that arise in nature. Using
+          a combination of theoretical and computational tools, we pursue
+          research in three categories - waves and instabilities, particles and
+          flows and physics of complex fluids, on occasions exploring the
+          intersection of these areas.
+        </p>
+      </div>
+
+      <div class="row py-3 mx-1">
+        <h3>Waves and instabilities</h3>
+
+        <p>
+          Oceans have a variety of length and time scale processes happening,
+          which influence the physical and biological processes in them. One of
+          the most important large-scale processes is the freezing of ice caps
+          at the poles during winter and their melting during summer, which
+          generate large-scale ocean circulations. In order to sustain these
+          circulations, the ocean has to impart energy to the cold water from
+          the melted ice caps. This energy transfer is attributed to internal
+          waves, surface waves, tides and earth’s rotation.
+        </p>
+      </div>
+
+      <div class="row mx-1">
+        <h5>(a) Internal gravity waves:</h5>
+
+        <p>
+          Earth’s oceans and atmosphere are inherently stratified in density i.e
+          the density changes with height. Due to this stratification, when a
+          small parcel of fluid is displaced, generally due to the presence of
+          tides or waves on the surface, this parcel of fluid oscillates and
+          generates internal waves as shown in the video below. These internal
+          waves contribute to mixing in the ocean so as to maintain large scale
+          circulation. The effects of IGW’s were first observed in 1893 by
+          Fridtjof Nansen, where boats experienced strong resistance to forward
+          motion even in calm waters. Signatures of IGWs can also be seen by
+          aerial photographs of the ocean. These waves are highly nonlinear in
+          nature and interact with each other giving rise to resonances and
+          thereby increasing in amplitude. We study these underlying
+          interactions and resonances amongst these waves.
+        </p>
+
+        <div class="d-flex justify-content-center">
+          <div class="col-md-6">
+            <div class="row justify-content-center">
+              <figure class="figure">
+                <video class="w-100" autoplay loop muted>
+                  <source
+                    src="Materials/Research/Videos/Ramana_2.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <figcaption class="figure-caption text-center">
+                  Propagation of internal gravity wave beams.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-1">
+        <h5>(b) Surface gravity waves:</h5>
+
+        <p>
+          Waves on an air water interface are commonplace, occurring on a large
+          scale in the oceans, to small ripples on a lake or a swimming pool.
+          Surface gravity waves are an important process that is parameterized
+          into global climate models, since they interact with the atmosphere
+          and determine the fluxes of heat entering and exiting the ocean,
+          thereby regulating earth’s weather and climate systems.
+        </p>
+
+        <p>
+          These waves get generated due to wind blowing over a slightly
+          disturbed interface. Gravity and surface tension tugs on this deformed
+          interface to bring it back to its original flat state and thereby
+          providing the restoring mechanism for the same. These waves grow in
+          amplitude and break through the process of wave steepening.
+        </p>
+
+        <p>
+          The formation of surface gravity waves is a complex phenomena, Miles
+          (JFM, 1957) studied the growth of these waves by performing stability
+          calculations, and provided a mechanism for the growth of this
+          instability. Where energy is transferred from a critical layer in air
+          (where the wave speed matches with wind speed) to the interface.
+          Similarly a rippling instability exists due to the critical layer in
+          water and finally both their viscous counterparts.
+        </p>
+
+        <p>
+          In our lab, we perform linear stability calculations to identify
+          parameter regimes, at which the interface gets unstable, we determine
+          the rate at which they grow and perform DNS simulations to validate
+          the theoretical results. While these studies are of interest to a
+          scientific mind, waves also have an artistic beauty associated like
+          this picture below of a popular Japanese woodblock print The great
+          wave off Kanagawa.
+        </p>
+
+        <div class="row p-3 d-flex flex-wrap align-items-center">
+          <div class="col-md-6">
+            <figure class="figure">
+              <img
+                src="Materials/Research/Photos/Ramana.jpg"
+                class="figure-img img-fluid rounded"
+                alt=""
+              />
+              <figcaption class="figure-caption text-center">
+                The great wave off Kanagawa (The MET museum).
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row justify-content-center">
+              <figure class="figure">
+                <video class="w-100" autoplay loop muted>
+                  <source
+                    src="Materials/Research/Videos/Ramana_1.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <figcaption class="figure-caption text-center">
+                  Traveling surface gravity wave.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-3 mx-1">
+        <h3>Particles and Flows</h3>
+
+        <p>
+          Our research is dedicated to unraveling the flow and dynamics of
+          intricate complex fluids, including dry granular materials, fiber
+          suspensions, particle-fluid mixtures, and assemblies of swimming
+          microorganisms. These materials hold immense practical significance,
+          as they are widely encountered and transported in various industries.
+          Simultaneously, they present intricate scientific challenges. Our
+          investigations employ a multifaceted approach, incorporating
+          theoretical analysis, and computational modeling. Our recent research
+          highlited bellow:
+        </p>
+      </div>
+
+      <div class="row mx-1">
+        <h5>(a) Particle interactions:</h5>
+
+        <p>
+          Gravity-driven interactions among charged dielectric spheres in a
+          gaseous medium are examined, leading to surface-to-surface contact
+          within a finite timeframe due to non-continuum lubrication
+          interactions. Attraction is observed between closely approaching
+          dielectric spheres with similar charges across various size and charge
+          ratio settings. The research investigates the influence of
+          electrostatic forces on the trajectories of two uncharged conducting
+          spheres under an external electric field, considering hydrodynamic
+          interactions. Deriving the asymptotic interparticle force under
+          lubrication limits for arbitrary size ratios, it reveals the
+          attractive electric force's divergence as separation approaches zero,
+          overcoming continuum lubrication resistance.
+        </p>
+
+        <div class="row p-3 d-flex flex-wrap align-items-center">
+          <div class="col-md-6">
+            <figure class="figure">
+              <video class="w-100" autoplay loop muted>
+                <source
+                  src="Materials/Research/Videos/Continumm_trajectory_open1.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <figcaption class="figure-caption text-center">
+                Continumm open trajectory.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-md-6">
+            <figure class="figure">
+              <video class="w-100" autoplay loop muted>
+                <source
+                  src="Materials/Research/Videos/Continumm_trajectory_open2.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <figcaption class="figure-caption text-center">
+                Continumm open trajectory.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="row p-3 d-flex flex-wrap align-items-center">
+          <div class="col-md-6">
+            <figure class="figure">
+              <video class="w-100" autoplay loop muted>
+                <source
+                  src="Materials/Research/Videos/Continumm_trajectory_closed.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <figcaption class="figure-caption text-center">
+                Continumm closed trajectory.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-md-6">
+            <figure class="figure">
+              <video class="w-100" autoplay loop muted>
+                <source
+                  src="Materials/Research/Videos/Noncontinumm_trajectory_colliding.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <figcaption class="figure-caption text-center">
+                Noncontinumm colliding trajectory.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-1">
+        <h5>(b) Particles in vortices:</h5>
+
+        <p>
+          Vortical flows are ubiquitous in various industrial and geophysical
+          contexts. More commonly, these flows will be suspended with heavy
+          inertial particles, for example dustdevils and atmospheric cyclones.
+          The great red spot on Jupiter is an anticyclonic storm. The suspended
+          particles can be rigid dust particles or water droplets, which are
+          heavier than the ambient flow. Thus the heavy particles do not quite
+          obey the fluid trajectory, rather deviate lag significantly due to
+          their inertia. It is theoretically known that heavy inertial particles
+          centrifuge away from vortical regions and accumulate in the straining
+          region of the flow. We model the dynamics of inertial particles in the
+          flow generated by an isolated elliptic vortex patch and study the
+          dynamics of heavy particles in it. We find that the particles sample
+          the flow field according to the stable and unstable manifolds. The
+          inclusion of an external shear flow is found to induce chaos to the
+          inertial particle trajectories.
+        </p>
+
+        <div class="d-flex justify-content-center">
+          <div class="col-md-6">
+            <div class="row justify-content-center">
+              <figure class="figure">
+                <video class="w-100" autoplay loop muted>
+                  <source
+                    src="Materials/Research/Videos/Anu.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <figcaption class="figure-caption text-center">
+                  Particle clustering in a flow field around an elliptical
+                  vortex.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-1">
+        <h5>(c) Microswimmers:</h5>
+
+        <p>
+          The instability of a thin-film suspension of micro-swimmers under the
+          influence of an attractant gradient, resulting in a preferential
+          swimming direction and generating an anisotropic orientation field, is
+          explored. Micro-swimmers, modeled as force dipoles, reveal instability
+          due to the interplay between active stress and perturbations in
+          swimmer density. A stability analysis assesses how the presence of an
+          interface modifies this instability, unveiling a novel mode driven by
+          interface deformation due to active stress. Instabilities are
+          influenced by the orientation of the attractant gradient relative to
+          the interface, even in a suspension of chemotactic pullers previously
+          considered stable.
+        </p>
+      </div>
+
+      <div class="row mx-1">
+        <h5>(d) Electromagnetic wave scattering:</h5>
+
+        <p>
+          When a travelling electromagnetic wave encounters an object of
+          different dielectric constant, it gets scattered from the surface of
+          the object. Due to the scattering of the electromagnetic wave, the
+          object experiences a force called the radiation force. Here, we study
+          the scattered electromagnetic field and the radiation force on the
+          conducting, dielectric and bi-dielectric (Janus) particles using the
+          Lattice Boltzmann method.
+        </p>
+
+        <div class="row p-3 d-flex flex-wrap align-items-center">
+          <div class="col-md-6">
+            <figure class="figure">
+              <video class="w-100" autoplay loop muted>
+                <source
+                  src="Materials/Research/Videos/Janus_Scattering.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <figcaption class="figure-caption text-center">
+                Scattering of plane electromagnetic wave from a dielectric Janus
+                cylinder.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-md-6">
+            <figure class="figure">
+              <video class="w-100" autoplay loop muted>
+                <source
+                  src="Materials/Research/Videos/Janus_Trajectory.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <figcaption class="figure-caption text-center">
+                Trajectory of a Janus cylinder under hydrodynamic drag and
+                radiation force in Stokes flow.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-1">
+        <h5>(e) Anisotropic particles:</h5>
+
+        <p>
+          In surface gravity waves, an anisotropic particle exhibits orbital
+          motion. A negative buoyant particle settles into a deep flow field.
+          The transportation of an anisotropic particle is a complex problem
+          because it also depends on the orientation of a particle. Hence,
+          translation and orientation are coupled dynamics to understand the
+          transportation of a particle. In this video, we observed that as a
+          particle settles, its orientation changes with time and attains a
+          steady orientation. Altering the orientation leads to different
+          trajectories of a particle.
+        </p>
+
+        <div class="d-flex justify-content-center">
+          <div class="col-md-6">
+            <div class="row justify-content-center">
+              <figure class="figure">
+                <video class="w-100" autoplay loop muted>
+                  <source
+                    src="Materials/Research/Videos/Himanshu_Video.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <figcaption class="figure-caption text-center">
+                  Settling of a heavy spheroid in surface gravity waves.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-1">
+        <h5>(f) Particles in pulsatile flows:</h5>
+
+        <p>
+          The dynamics of inertial particles in pulsatile or Womersley flows are
+          crucial in understanding various physical and biological processes and
+          designing microfluidic devices. We carry out collaborative work with
+          Prof. Mahesh Panchagnula, Applied Mechanics IIT Madras, to study the
+          transport of particulate matter using Maxey-Riley & Langevin models &
+          mixing in fluid mass in the respiratory airways and understand the
+          dispersion of inertial particles in an axially diverging conduits in
+          the oscillating background with the focus to understand the
+          interactive and individual effects of particle inertia, time
+          oscillation and degree of geometry divergence.
+        </p>
+
+        <div class="d-flex justify-content-center">
+          <figure class="figure text-center col-lg-6">
+            <img
+              src="Materials/Research/Photos/Prabhash.jpg"
+              class="figure-img img-fluid rounded"
+              alt="..."
+            />
+            <figcaption class="figure-caption"></figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="row py-3 mx-1">
+        <h3>Physics of complex fluids</h3>
+
+        <p>
+          Fluids that possess an underlying microstructure affecting their
+          macroscopic properties are categorized as complex fluids. Our interest
+          lies in understanding the microstructure's influence on the fluid flow
+          dynamics. Thus far, we have been working on such flows in the context
+          of particle-laden falling films, dusty flows and bacterial films.
+        </p>
+
+        <h5>(a) Particle-laden falling films:</h5>
+
+        <p>
+          Falling liquid films laden with particles are ubiquitous, from coating
+          processes in industries to the tear film protecting our eyes. In this
+          context, we studied the stability of the canonical problem of a
+          particle-laden gravity-driven falling film. We found that the
+          viscosity stratification created by the suspended particles could
+          solely act to destabilize the fluid flow.
+        </p>
+
+        <div class="d-flex justify-content-center">
+          <figure class="figure text-center col-lg-6">
+            <img
+              src="Materials/Research/Photos/Particle-laden_falling_films.jpg"
+              class="figure-img img-fluid rounded"
+              alt="..."
+            />
+            <figcaption class="figure-caption">
+              Thin films, Coating flows (Dhas & Roy 2022).
+            </figcaption>
+          </figure>
+        </div>
+
+        <h5>(b) Dusty Vortices:</h5>
+
+        <p>
+          Vortical flows with heavy dispersed particles occur in diverse
+          scenarios, both of natural and engineering origins. Here, We studied
+          the effect of inertial particles dispersed in a circular patch of
+          finite radius on the stability of a two-dimensional Rankine vortex in
+          semi-dilute dusty flow. The mechanisms driving the instability are
+          characterized using linear stability analysis for weakly inertial
+          particles using both 2-D and 3D stability analysis.
+        </p>
+
+        <div class="d-flex justify-content-center">
+          <figure class="figure text-center col-lg-6">
+            <img
+              src="Materials/Research/Photos/Dusty_Vortices.jpg"
+              class="figure-img img-fluid rounded"
+              alt="..."
+            />
+            <figcaption class="figure-caption">
+              Dust Structure Interactions (Shuai Shuai et al. 2022).
+            </figcaption>
+          </figure>
+        </div>
+
+        <h5>(c) Bacterial Films:</h5>
+
+        <p>
+          Active suspensions are ubiquitously found in a variety of natural
+          systems. One of the fundamental aspects leading to the medium-like
+          behavior from which the word "active suspensions" is coined, is the
+          non-passivity or motility or self- propulsion of these organisms. The
+          flow that is generated in the fluid medium due to the self-propulsion
+          is of interest. We explore the role of geometric confinement on the
+          creation of flow instabilities that eventually give rise to the
+          phenomenon of collective motion. Switching from micron-sized swimmers
+          to virus particles at the nanometer scale, We also explore the role of
+          convective fluid motion in the aerosol transmission of diseases.
+        </p>
+
+        <div class="d-flex justify-content-center">
+          <figure class="figure text-center col-lg-6">
+            <img
+              src="Materials/Research/Photos/Bacterial_Films.jpg"
+              class="figure-img img-fluid rounded"
+              alt="..."
+            />
+            <figcaption class="figure-caption">
+              Schematic of the thin-film problem with an attractant gradient
+              pointed towards the interface (Murugan & Roy 2023).
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Scroll to top -->
+      <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+      </button>
+      <!-- Scroll to top -->
+    </div>
+
+    <!-- Footer -->
+    <!-- <?php include 'footer.php'; ?> -->
+    <!-- Footer -->
+
+    <!-- Footer -->
+    <footer
+      class="d-flex flex-wrap justify-content-center align-items-center text-white-50 bg-dark fixed-bottom"
+    >
+      <!-- <p class="col-md-4 mb-0 text-muted px-5"><a href="https://apm.iitm.ac.in/" target="_blank">AMBE</a></p> -->
+
+      <p class="mb-0">
+        Designed by
+        <a
+          href="https://www.linkedin.com/in/meraj87"
+          target="_blank"
+          class="meraj"
+          >Meraj</a
+        >
+      </p>
+
+      <!-- <p class="nav col-md-4 justify-content-end px-5"> <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a> </p> -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- for all three, replace "justify-content-center" with "justify-content-between" -->
+
+    <script src="js/bootstrap.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

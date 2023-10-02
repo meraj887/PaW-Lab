@@ -1,0 +1,138 @@
+
+    p {
+        text-align: justify;
+        word-wrap: break-word;
+      }
+      
+      .container {
+        max-width: 1040px;
+        padding-bottom: 50px;
+      }
+  
+      body {
+        background-color: rgba(224, 224, 224, 0.404);
+        height: 100%;
+      }
+  
+      a {
+        text-decoration: none;
+        color: rgb(69, 115, 206);
+      }
+  
+      /* a:hover {
+        color: white;
+      } */
+
+      /* #papertitle:hover {
+        color: black;
+      } */
+
+      /* #name{
+        color: rgb(78, 77, 77);
+      }
+
+      #name:hover{
+        color: black;
+      } */
+  
+      .navbar-nav {
+        font-size: 16px;
+        font-weight: bold;
+      }
+  
+      .navbar-nav > li {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      #papertitle {
+        font-size: 16px;
+        /* color: rgb(73, 72, 72); */
+      }
+    
+      #author {
+        font-size: 14px;
+        /* color: dimgray; */
+      }
+
+      .teaching {
+        font-weight: bold;
+        margin-top: 5px;
+      }
+
+      .teaching > li {
+        margin-top: 20px;
+      }
+
+      .embed-responsive {
+        position:relative
+      }
+
+      .embed-responsive-item {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+     
+      .lab_name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+      }
+
+      .container-fluid {
+        position: relative;
+        color: white;
+      }
+
+      /* .IITM_logo {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+      } */
+
+      /* .department {
+        position: absolute;
+        bottom: 8px;
+        left: 8px;
+      } */
+
+      #footer {
+        font-size: small;
+      }
+
+      /* #resume {
+        color: black;
+      }  */
+
+      #btnScrollToTop {
+        position: fixed;
+        right: 30px;
+        bottom: 40px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #5c5a59;
+        opacity: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        columns: #ffffff;
+        outline: none;
+        cursor: pointer;
+        border: none;
+      }
+
+      #btnScrollToTop:active {
+        background: #5d86df;
+      }
+
+      .meraj {
+        color: #b4a7a4;
+      }
+
+      .meraj:hover {
+        color: #ffffff;
+      }
+      
+      
